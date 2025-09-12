@@ -1,4 +1,4 @@
-📘 JSON Data Processor
+# 🎓 Student Data Processor (JSON Based)
 
 A simple Python CLI project to manage student records stored in a JSON file.
 This project demonstrates CRUD operations (Create, Read, Update, Delete) with persistent storage.
