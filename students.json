@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "univ_roll": "2410520001",
+        "name": "Meghana",
+        "student_mobile": "9876543210",
+        "parent_mobile": "8888888888",
+        "cgpa": null
+    },
+    {
+        "id": 2,
+        "univ_roll": "2410520002",
+        "name": "IJJADA.DINESH",
+        "student_mobile": "9999999999",
+        "parent_mobile": "8888888888",
+        "cgpa": 7
+    },
+    {
+        "id": 3,
+        "univ_roll": "2410520003",
+        "name": "AMRUTHALUR SANDEEP",
+        "student_mobile": "9999999999",
+        "parent_mobile": "8888888888",
+        "cgpa": 7
+    },
+    {
+        "id": 4,
+        "univ_roll": "2410520004",
+        "name": "BANDLAGUDEM SANJAY",
+        "student_mobile": "9999999999",
+        "parent_mobile": "8888888888",
+        "cgpa": 6
+    },
+    {
+        "id": 5,
+        "univ_roll": "2410520005",
+        "name": "BEESU KARUN TEJA REDDY",
+        "student_mobile": "9999999999",
+        "parent_mobile": "8888888888",
+        "cgpa": 7
+    },
+    {
+        "id": 6,
+        "univ_roll": "2410520006",
+        "name": "BHAMIDIPATI APARNA",
+        "student_mobile": "9999999999",
+        "parent_mobile": "8888888888",
+        "cgpa": 9
+    },
+    {
+        "id": 7,
+        "univ_roll": "2410520007",
+        "name": "ENJAMURI SOWMYA",
+        "student_mobile": "9999999999",
+        "parent_mobile": "8888888888",
+        "cgpa": 7
+    },
+    {
+        "id": 8,
+        "univ_roll": "2410520008",
+        "name": "FASIHUDDIN AHMED",
+        "student_mobile": "9999999999",
+        "parent_mobile": "8888888888",
+        "cgpa": 7
+    },
+    {
+        "id": 9,
+        "univ_roll": "2410520009",
+        "name": "G MANIKANTH REDDY",
+        "student_mobile": "9999999999",
+        "parent_mobile": "8888888888",
+        "cgpa": 8
+    },
+    {
+        "id": 10,
+        "univ_roll": "2410520010",
+        "name": "G CHANDRASHEKAR",
+        "student_mobile": "9999999999",
+        "parent_mobile": "8888888888",
+        "cgpa": 7
+    }
+]
