@@ -1,0 +1,49 @@
+Polymorphism (Many Forms)
+Definition: The ability of the same function, operator, or method to perform different tasks in different contexts.
+
+Examples:
+Operator Overloading:
+'+' → addition (numbers), concatenation (strings)
+'*' → multiplication (numbers), repetition (strings/lists), packing/unpacking
+
+Function Overloading:
+print() → works for numbers, strings, lists, etc.
+
+Types of Polymorphism:
+Compile-time (Static) Polymorphism
+Achieved by:
+Method Overloading
+Operator Overloading
+Decided during compilation (not supported natively in Python, but can be mimicked).
+
+Run-time (Dynamic) Polymorphism
+Achieved by:
+Method Overriding
+Decided at run-time.
+
+- When a subclass and its superclass both define a method with the same name and parameters (signature), 
+the subclass method overrides the superclass method.
+- If you call the method from an object of the subclass, only the subclass version of the method is executed.
+- The superclass method is not called, unless you explicitly invoke it using super.
+
+Rules for Method Overriding:
+Inheritance between superclass and subclass must exist.
+Both must have a method with the same name and same parameters.
+The logic inside the methods must be different.
+Overriding happens only when the method is called using the subclass object.
+
+Calling Parent Class Method (when overriding exists):
+Two ways:
+ParentClassName.method(self, arguments)
+super().methodName(arguments) (no self needed)
+
+*args: It allows a function to accept any number of arguments without defining them one by one.
+ * means “pack” all extra positional arguments into a tuple called args.
+It takes all extra positional arguments (those not explicitly defined in the function) and stores them inside a tuple.
+
+Without *args, you would need to know exactly how many arguments the function will take.
+But in real cases, sometimes:
+You don’t know how many values a user will pass.
+You want your function to be flexible (e.g., sum of 2 numbers, or 100 numbers).
+That’s where *args helps — it removes the limitation of fixed arguments.
+*args->flexibility,cleaner code,reusability

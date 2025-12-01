@@ -1,0 +1,35 @@
+If a class contains more than one method and has same method name->method overloading
+The methods can differ by having different datatypes of parameters, a different number of parameters, or both.
+
+Features of Method Overloading
+Flexibility – allows the same method name to handle different types of input.
+Readability – makes the program easier to read and understand.
+Simplicity – the program is easier to work with.
+Reduced Complexity – avoids unnecessary different method names for similar operations.
+
+Method Overloading in Python
+Python does not support method overloading in the traditional sense because it is a dynamically typed language.
+Python does not check data types at compile time.
+If multiple methods with the same name are defined, only the last one is considered, and the previous ones are overridden.
+
+Achieving Method Overloading in Python
+We can achieve method overloading using the multipledispatch module.
+@dispatch(datatype,datatype,...)
+
+code:
+from multipledispatch import dispatch
+class A:
+    @dispatch(int,int)
+    def add(self,a,b):
+        return a+b
+    @dispatch(int,int,int)
+    def add(self,a,b,c):
+        return a+b+c
+    @dispatch(str,str)
+    def add(self,a,b):
+        return a+b
+
+obj=A()
+print(obj.add(1,2,3))
+print(obj.add('honey','comb'))
+print(obj.add(1,2))

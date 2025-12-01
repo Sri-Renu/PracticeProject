@@ -1,0 +1,16 @@
+combining related things in to a single unit 
+Goal: Protect data from direct access, allow controlled access.
+Datahiding + Abstraction =  Encapsulation
+
+1. code will be organized and cleaner
+2.prevents tthe data from accidentally removal & deletion
+3.abstraction 
+4.'Hides data'
+5.modularity
+
+Access specifiers:
+How in Python: Use private/protected/public attributes.
+1. Public → self.name (accessible anywhere)
+2. Protected → self._name (convention: for internal use)
+3. Private → self.__name (name mangling, can’t be accessed directly)
+
